@@ -2,22 +2,22 @@ var startButtonEl = document.getElementById("start");
 var scoresButtonEl = document.getElementById("scores");
 var watchEl = document.getElementById("watch");
 var myScoreEl = document.getElementById("myScore");
+var highScoreEl = document.getElementById("highScore");
 
-startButtonEl.addEventListener("click", function(){
-    startButtonEl.innerHTML = "";
-    var link = document.createElement('a');
-    link.setAttribute("href", "quiz.html");
-    link.innerHTML = "Start Quiz";
+startButtonEl.addEventListener("mouseover", function(){
     
-    console.log(link);
-    startButtonEl.appendChild(link); 
+    startButtonEl.setAttribute("onclick", "location.href = 'quiz.html';");
+    
 
-    
 });
 
 scoresButtonEl.addEventListener("click", function(){
     
-    
+    var points = 100;
+    highScoreEl.innerHTML = "High Score: " + points;
     
 });
+
+
+
 

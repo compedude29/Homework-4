@@ -1,15 +1,15 @@
-h1, #buttons{
+h1, #items{
     text-align: center;
     font-family: Impact, Charcoal, sans-serif;
     color: blue;
     background-color: orange;
     padding: 15px;
 }
-#text{
+#paragraph, #block {
     background-color: blue;
     padding: 15px;
 }
-.instruct {
+.instructions, #question, #choices {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: white; 
@@ -21,4 +21,7 @@ h1, #buttons{
     font-size: 16px;
     padding: 15px;
     font-weight: bold;
+}
+#watch, #myScore, #highScore{
+    font-size: 20px;
 }
