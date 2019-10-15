@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
+    <!-- call to css file -->
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
-
+    <!-- "the instructions, buttons and trackers contained in a div block -->
     <div id = "container">
-        <h1>Code Quiz</h1>
-
+        <!-- title of page -->
+        <h1>Code Quiz</h1> 
+        <!-- instructions contained in a paragraph -->
         <div id = "paragraph">
             <p class = "instructions">We are in week 5 of coding bootcamp so let's take a litte quiz.</p>
             <p class = "instructions">We are going to be testing our knowledge of JavaScript.</p>
             <p class = "instructions">There are 10 multiple-choice questions to answer.</p>
             <p class = "instructions">Answer as many as you can in a 150 seconds.</p>
-            <p class = "instructions">Your score will be determined by the number correct answers.</p>
+            <p class = "instructions">Your score will be determined by the number of correct answers.</p>
             <p class = "instructions"> You will have the option to input your initals if you have the highscore.</p>
         </div>
-
+        <!-- the buttons and info trackers contained in a div block -->
         <div id = "items">
             <button id = "start">Start Quiz</button>
-            <button id = "scores">View Highscores</button>
+            <button id = "scores">View Highscore</button>
             <div id = "watch">Time: 0</div>
             <div id = "myScore">Your Score: </div>
             <div id = "highScore">High Score: </div>
         </div>
     </div>
-
-    <script src="./script.js"></script>
-
+    <!-- call to js file -->
+    <script src="questions.js"></script>
+    
 </body>
 </html>
