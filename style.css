@@ -9,7 +9,7 @@ h1, #items{
     background-color: blue;
     padding: 15px;
 }
-.instructions, #question, #choices {
+.instructions, #ask, #options {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: white; 

@@ -3,12 +3,13 @@ var scoresButtonEl = document.getElementById("scores");
 var watchEl = document.getElementById("watch");
 var myScoreEl = document.getElementById("myScore");
 var highScoreEl = document.getElementById("highScore");
+var askEl = document.getElementById("ask");
+
 
 startButtonEl.addEventListener("mouseover", function(){
     
     startButtonEl.setAttribute("onclick", "location.href = 'quiz.html';");
     
-
 });
 
 scoresButtonEl.addEventListener("click", function(){
@@ -17,7 +18,4 @@ scoresButtonEl.addEventListener("click", function(){
     highScoreEl.innerHTML = "High Score: " + points;
     
 });
-
-
-
 
