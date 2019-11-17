@@ -63,8 +63,8 @@ var questions= [
 //listener event for "Start Quiz" button to go to first question
 startButtonEl.addEventListener("mouseover", function(){
     
-    startButtonEl.setAttribute("onclick", "location.href = 'quiz.html';");
-    //askEl.innerHTML = "ABCDDDD";
+    startButtonEl.setAttribute("onclick", "location.href = '#block';");
+    askEl.innerHTML = questions[0].title;
     
 });
 //listener event for "View Highscore" button to display highscore
@@ -74,6 +74,9 @@ scoresButtonEl.addEventListener("click", function(){
     highScoreEl.innerHTML = "High Score: " + points;
     
 });
+
+
+    
 
 
         
